@@ -12,6 +12,10 @@
 
   /* margin  */
 
+  .mb-20 {
+    margin-bottom: 10px;
+  }
+
   .mb-30 {
     margin-bottom: 25px;
   }
@@ -81,6 +85,29 @@
   }
 
   /* banner  */
+
+  /* map  */
+
+  .pt-400 {
+    padding-top: 90px;
+  }
+
+  .pt-540 {
+    padding-top: 70px;
+  }
+
+  .pb-100 {
+    padding-bottom: 40px;
+  }
+  /* map  */
+
+  /* app  */
+
+  .app {
+    padding: 0 0 140px 0;
+  }
+
+  /* app  */
 }
 
 /* Small devices*/
@@ -96,6 +123,10 @@
   }
 
   /* margin  */
+
+  .mb-20 {
+    margin-bottom: 15px;
+  }
 
   .mb-30 {
     margin-bottom: 25px;
@@ -166,6 +197,24 @@
   }
 
   /* banner  */
+
+  /* map  */
+  .pt-400 {
+    padding-top: 100px;
+  }
+
+  .pt-540 {
+    padding-top: 100px;
+  }
+  /* map  */
+
+  /* app  */
+
+  .app {
+    padding: 0 0 140px 0;
+  }
+
+  /* app  */
 }
 
 /* Medium devices*/
@@ -235,14 +284,50 @@
   }
 
   /* banner  */
+
+  /* map  */
+  .pt-400 {
+    padding-top: 100px;
+  }
+
+  .pt-540 {
+    padding-top: 180px;
+  }
+  /* map  */
+
+  /* app  */
+
+  .app {
+    padding: 0 0 140px 0;
+  }
+
+  /* app  */
 }
 
 /* Large devices */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  /* map  */
+  .pt-400 {
+    padding-top: 180px;
+  }
+
+  .pt-540 {
+    padding-top: 250px;
+  }
+  /* map  */
 }
 
 /* Extra large devices*/
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* map  */
+  .pt-400 {
+    padding-top: 200px;
+  }
+
+  .pt-540 {
+    padding-top: 300px;
+  }
+  /* map  */
 }
 
 /* Extra extra large devices*/
