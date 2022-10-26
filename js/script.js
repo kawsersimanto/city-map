@@ -8,5 +8,3 @@ document.addEventListener('scroll', () => {
     navbar.classList.remove('scroll', 'shadow');
   }
 });
-
-AOS.init();
