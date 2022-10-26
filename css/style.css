@@ -32,6 +32,7 @@
   --hover-accent-color: #3ae2eb8f;
   --white: #ffffff;
   --ash-color: #f4f4ff;
+  --navbar-color: #0aa3e9;
   /* weights  */
   --light: 300;
   --regular: 400;
@@ -53,6 +54,7 @@ body {
   font-size: 16px;
   font-weight: var(--regular);
   color: var(--secondary-color);
+  overflow-x: hidden;
 }
 
 /* global styles  */
@@ -80,12 +82,14 @@ p {
 }
 
 a,
-input {
+input,
+small {
   font-family: var(--ff-secondary);
 }
 
 a {
   font-size: 18px;
+  text-decoration: none;
 }
 
 button {
@@ -239,20 +243,13 @@ button {
 
 /* navbar  */
 
-header {
-  /* padding: 40px 0; */
-}
-
 .c-navbar {
   padding: 20px 0;
   transition: var(--transition);
 }
 
 .c-navbar.scroll {
-  background-color: var(--hover-accent-color);
-}
-
-.menu-items {
+  background-color: var(--navbar-color);
 }
 
 .menu-items li a {
@@ -354,3 +351,44 @@ header {
 }
 
 /* app  */
+
+/* footer  */
+
+footer {
+  height: 650px;
+  background-image: url(../img/footer/footer-bg.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.footer-row {
+  gap: 2rem;
+}
+
+.socials ul li a i {
+  padding: 15px;
+  font-size: 20px;
+  border: 2px solid var(--ash-color);
+  border-radius: 50%;
+  color: #b0bec5;
+  transition: var(--transition);
+}
+
+.socials ul li a i:hover {
+  border-color: var(--hover-accent-color);
+  color: var(--hover-accent-color);
+}
+
+.footer-menu ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: var(--transition);
+}
+
+.footer-menu ul li a:hover {
+  color: var(--hover-accent-color);
+}
+
+/* footer  */
